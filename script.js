@@ -11,7 +11,7 @@ document.getElementById("btn").addEventListener("click", function() {
 
   // Validate inputs
   if (!age || !name) {
-    alert("Please fill in all fields.");
+    alert("Please enter valid details");
     return;
   }
 
